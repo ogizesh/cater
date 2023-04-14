@@ -1,13 +1,13 @@
 <form id="form<%= order_id %>" method="POST" action="https://yoomoney.ru/quickpay/confirm.xml">
-  <input type="hidden" name="receiver" value="41000000000000">
+  <input type="hidden" name="receiver" value="4100118172229280">
   <input type="hidden" name="quickpay-form" value="shop">
-  <input type="hidden" name="targets" value="Доступ к контактам <%= member_id %>">
+  <input type="hidden" name="targets" value="Оплата заказа">
   <input type="hidden" name="paymentType" value="AC">
   <input type="hidden" name="sum" value="3" data-type="number">
-  <input type="hidden" name="label" value="Оплата доступа:<%= member_id %>:Подписка на 3 месяца">
-  <input type="hidden" name="formcomment" value="Creatium Demo: оплата доступа к контактам на 3 месяца">
-  <input type="hidden" name="short-dest" value="Creatium Demo: оплата доступа к контактам на 3 месяца">
-  <input type="hidden" name="successURL" value="https://mysite.ru/catalog?success-payment=<%= order_id %>">
+  <input type="hidden" name="label" value="Оплата заказа">
+  <input type="hidden" name="formcomment" value="Оплата заказа">
+  <input type="hidden" name="short-dest" value="Оплата заказа">
+  <input type="hidden" name="successURL" value="https://zcatering.glide.page/success">
   <input type="submit" value="Перевести">
 </form>
 
